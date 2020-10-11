@@ -9,20 +9,20 @@
   <title>Costic Dashboard</title>
   <!-- Iconic Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="../../vendors/iconic-fonts/font-awesome/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../../vendors/iconic-fonts/flat-icons/flaticon.css">
-  <link rel="stylesheet" href="../../vendors/iconic-fonts/cryptocoins/cryptocoins.css">
-  <link rel="stylesheet" href="../../vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css">
+  <link href="./vendors/iconic-fonts/font-awesome/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./vendors/iconic-fonts/flat-icons/flaticon.css">
+  <link rel="stylesheet" href="./vendors/iconic-fonts/cryptocoins/cryptocoins.css">
+  <link rel="stylesheet" href="./vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css">
   <!-- Bootstrap core CSS -->
-  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
   <!-- jQuery UI -->
-  <link href="../../assets/css/jquery-ui.min.css" rel="stylesheet">
+  <link href="./assets/css/jquery-ui.min.css" rel="stylesheet">
   <!-- Page Specific CSS (Slick Slider.css) -->
-  <link href="../../assets/css/slick.css" rel="stylesheet">
+  <link href="./assets/css/slick.css" rel="stylesheet">
   <!-- Costic styles -->
-  <link href="../../assets/css/style.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
 
 </head>
 
@@ -57,7 +57,7 @@
 
     <!-- Logo -->
     <div class="logo-sn ms-d-block-lg">
-      <a class="pl-0 ml-0 text-center" href="../../index.html"> <img src="../../assets/img/costic/costic-logo-216x62.png" alt="logo"> </a>
+      <a class="pl-0 ml-0 text-center" href="./index.html"> <img src="./assets/img/costic/costic-logo-216x62.png" alt="logo"> </a>
     </div>
 
     <!-- Navigation -->
@@ -68,7 +68,7 @@
           <span><i class="material-icons fs-16">dashboard</i>Dashboard </span>
         </a>
         <ul id="dashboard" class="collapse" aria-labelledby="dashboard" data-parent="#side-nav-accordion">
-          <li> <a href="../../index.html">Costic</a> </li>
+          <li> <a href="./index.html">Costic</a> </li>
 
         </ul>
       </li>
@@ -410,7 +410,7 @@
       </div>
 
       <div class="logo-sn logo-sm ms-d-block-sm">
-        <a class="pl-0 ml-0 text-center navbar-brand mr-0" href="../../index.html"><img src="../../assets/img/costic/costic-logo-84x41.png" alt="logo"> </a>
+        <a class="pl-0 ml-0 text-center navbar-brand mr-0" href="../../index.html"><img src="./assets/img/costic/costic-logo-84x41.png" alt="logo"> </a>
       </div>
 
       <ul class="ms-nav-list ms-inline mb-0" id="ms-nav-options">
@@ -432,7 +432,7 @@
             <li class="ms-scrollable ms-dropdown-list">
               <a class="media p-2" href="#">
                 <div class="ms-chat-status ms-status-offline ms-chat-img mr-2 align-self-center">
-                  <img src="../../assets/img/costic/customer-1.jpg" class="ms-img-round" alt="people">
+                  <img src="./assets/img/costic/customer-1.jpg" class="ms-img-round" alt="people">
                 </div>
                 <div class="media-body">
                   <span>Hey man, looking forward to your new project.</span>
@@ -441,7 +441,7 @@
               </a>
               <a class="media p-2" href="#">
                 <div class="ms-chat-status ms-status-online ms-chat-img mr-2 align-self-center">
-                  <img src="../../assets/img/costic/customer-2.jpg" class="ms-img-round" alt="people">
+                  <img src="./assets/img/costic/customer-2.jpg" class="ms-img-round" alt="people">
                 </div>
                 <div class="media-body">
                   <span>Dear John, I was told you bought Costic! Send me your feedback</span>
@@ -505,7 +505,7 @@
         </li>
 
         <li class="ms-nav-item ms-nav-user dropdown">
-          <a href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="ms-user-img ms-img-round float-right" src="../../assets/img/costic/customer-6.jpg" alt="people"> </a>
+          <a href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="ms-user-img ms-img-round float-right" src="./assets/img/costic/customer-6.jpg" alt="people"> </a>
           <ul class="dropdown-menu dropdown-menu-right user-dropdown" aria-labelledby="userDropdown">
             <li class="dropdown-menu-header">
               <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Welcome, Anny Farisha</span></h6>
@@ -661,19 +661,19 @@
                   <div id="imagesSlider" class="ms-image-slider carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img class="d-block w-100" src="../../assets/img/costic/add-product-1.jpg" alt="First slide">
+                        <img class="d-block w-100" src="./assets/img/costic/add-product-1.jpg" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="../../assets/img/costic/add-product-2.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="./assets/img/costic/add-product-2.jpg" alt="Second slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="../../assets/img/costic/add-product-3.jpg" alt="Third slide">
+                        <img class="d-block w-100" src="./assets/img/costic/add-product-3.jpg" alt="Third slide">
                       </div>
                     </div>
                     <ol class="carousel-indicators">
-                      <li data-target="#imagesSlider" data-slide-to="0" class="active"> <img class="d-block w-100" src="../../assets/img/costic/add-product-1.jpg" alt="First slide"></li>
-                      <li data-target="#imagesSlider" data-slide-to="1"><img class="d-block w-100" src="../../assets/img/costic/add-product-2.jpg" alt="Second slide"></li>
-                      <li data-target="#imagesSlider" data-slide-to="2"><img class="d-block w-100" src="../../assets/img/costic/add-product-3.jpg" alt="Third slide"></li>
+                      <li data-target="#imagesSlider" data-slide-to="0" class="active"> <img class="d-block w-100" src="./assets/img/costic/add-product-1.jpg" alt="First slide"></li>
+                      <li data-target="#imagesSlider" data-slide-to="1"><img class="d-block w-100" src="./assets/img/costic/add-product-2.jpg" alt="Second slide"></li>
+                      <li data-target="#imagesSlider" data-slide-to="2"><img class="d-block w-100" src="./assets/img/costic/add-product-3.jpg" alt="Third slide"></li>
                     </ol>
                   </div>
                 </div>
@@ -885,8 +885,8 @@
                   vel varius metus. Pellentesque eget orci malesuada, venenatis magna et
                 </p>
                 <ul class="ms-note-members clearfix mb-0">
-                  <li class="ms-deletable"> <img src="../../assets/img/people/people-3.jpg" alt="member"> </li>
-                  <li class="ms-deletable"> <img src="../../assets/img/people/people-5.jpg" alt="member"> </li>
+                  <li class="ms-deletable"> <img src="./assets/img/people/people-3.jpg" alt="member"> </li>
+                  <li class="ms-deletable"> <img src="./assets/img/people/people-5.jpg" alt="member"> </li>
                 </ul>
               </div>
               <div class="ms-card-footer clearfix">
@@ -903,7 +903,7 @@
                     <li class="ms-scrollable ms-dropdown-list ms-members-list">
                       <a class="media p-2" href="#">
                         <div class="mr-2 align-self-center">
-                          <img src="../../assets/img/people/people-10.jpg" class="ms-img-round" alt="people">
+                          <img src="./assets/img/people/people-10.jpg" class="ms-img-round" alt="people">
                         </div>
                         <div class="media-body">
                           <span>John Doe</span>
@@ -911,7 +911,7 @@
                       </a>
                       <a class="media p-2" href="#">
                         <div class="mr-2 align-self-center">
-                          <img src="../../assets/img/people/people-9.jpg" class="ms-img-round" alt="people">
+                          <img src="./assets/img/people/people-9.jpg" class="ms-img-round" alt="people">
                         </div>
                         <div class="media-body">
                           <span>Raymart Sandiago</span>
@@ -919,7 +919,7 @@
                       </a>
                       <a class="media p-2" href="#">
                         <div class="mr-2 align-self-center">
-                          <img src="../../assets/img/people/people-7.jpg" class="ms-img-round" alt="people">
+                          <img src="./assets/img/people/people-7.jpg" class="ms-img-round" alt="people">
                         </div>
                         <div class="media-body">
                           <span>Heather Brown</span>
@@ -1153,27 +1153,27 @@
 
   <!-- SCRIPTS -->
   <!-- Global Required Scripts Start -->
-  <script src="../../assets/js/jquery-3.5.0.min.js"></script>
-  <script src="../../assets/js/popper.min.js"></script>
-  <script src="../../assets/js/bootstrap.min.js"></script>
-  <script src="../../assets/js/perfect-scrollbar.js"> </script>
-  <script src="../../assets/js/jquery-ui.min.js"> </script>
+  <script src="./assets/js/jquery-3.5.0.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/perfect-scrollbar.js"> </script>
+  <script src="./assets/js/jquery-ui.min.js"> </script>
   <!-- Global Required Scripts End -->
 
   <!-- Page Specific Scripts Start -->
-  <script src="../../assets/js/slick.min.js"> </script>
-  <script src="../../assets/js/moment.js"> </script>
-  <script src="../../assets/js/jquery.webticker.min.js"> </script>
-  <script src="../../assets/js/Chart.bundle.min.js"> </script>
-  <script src="../../assets/js/Chart.Financial.js"> </script>
+  <script src="./assets/js/slick.min.js"> </script>
+  <script src="./assets/js/moment.js"> </script>
+  <script src="./assets/js/jquery.webticker.min.js"> </script>
+  <script src="./assets/js/Chart.bundle.min.js"> </script>
+  <script src="./assets/js/Chart.Financial.js"> </script>
 
   <!-- Page Specific Scripts Finish -->
 
   <!-- Costic core JavaScript -->
-  <script src="../../assets/js/framework.js"></script>
+  <script src="./assets/js/framework.js"></script>
 
   <!-- Settings -->
-  <script src="../../assets/js/settings.js"></script>
+  <script src="./assets/js/settings.js"></script>
 
 </body>
 
